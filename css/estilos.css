@@ -1,0 +1,55 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5; /* un rosa muy suave */
+    color: #4b2c36; /* un color marroncito suave que combina bien con rosa */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Títulos */
+h1 {
+    color: #d63384; /* rosa más fuerte */
+    margin-bottom: 15px;
+    font-size: 2.5em;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #7a3b62;
+}
+
+/* Botón coquette */
+button {
+    background-color: #f7c6d9;
+    color: #4b2c36;
+    border: 2px solid #d63384;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(214, 51, 132, 0.3);
+}
+
+button:hover {
+    background-color: #f5a8c4;
+    color: white;
+    border-color: #b0266a;
+}
+
+/* Clase para agregar emojis rosados en los textos */
+.emoji {
+    font-size: 1.5em;
+    margin: 0 5px;
+}
